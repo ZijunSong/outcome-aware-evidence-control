@@ -1,0 +1,25 @@
+{
+  "method": "full",
+  "gap_priority": true,
+  "top_n": 100,
+  "reads_per_search": 2,
+  "candidate_batch": 8,
+  "support_threshold": 0.85,
+  "answer_threshold": 0.9,
+  "max_repairs": 2,
+  "weight_gap": 0.5,
+  "weight_bridge": 0.3,
+  "weight_disambiguate": 0.2,
+  "weight_redundancy": 0.15,
+  "weight_length": 0.05,
+  "limits": {
+    "search_calls": 6,
+    "read_calls": 12,
+    "llm_calls": 64,
+    "decision_calls": 200,
+    "repair_search_reserve": 2,
+    "repair_read_reserve": 4,
+    "terminal_llm_reserve": 2,
+    "terminal_decision_reserve": 4
+  }
+}

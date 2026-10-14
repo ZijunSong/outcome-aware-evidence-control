@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "demo",
+    "question": "Which city was A's doctoral advisor born in?",
+    "answer": "Vienna",
+    "supporting_facts": [["A doctoral record", 0], ["C biography", 0]],
+    "context": [
+      ["Unverified profile", ["A worked with B. This directory does not verify who supervised A's doctorate."]],
+      ["B biography", ["B was born in Prague."]],
+      ["A doctoral record", ["A's doctoral advisor was C."]],
+      ["C biography", ["C was born in Vienna."]]
+    ],
+    "type": "bridge",
+    "level": "hard"
+  }
+]

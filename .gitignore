@@ -1,0 +1,10 @@
+.venv/
+runs/
+**/__pycache__/
+*.egg-info/
+*.pyc
+data/
+external/hotpot/
+external/SearchJev/
+external/*.log
+external/*.pid
