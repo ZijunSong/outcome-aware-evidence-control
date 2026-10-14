@@ -1,0 +1,13 @@
+{
+  "n": 100,
+  "delta_em": 0.16,
+  "paired_bootstrap_95ci": [
+    0.09,
+    0.24
+  ],
+  "wrong_to_right": 17,
+  "right_to_wrong": 1,
+  "mcnemar_exact_p": 0.00014495849609375,
+  "interpretation": "ESTIMATED_DIFFERENCE",
+  "warning": "An interval containing zero is not evidence of equivalence; a zero-width empirical interval with no observed discordance does not prove zero population noise."
+}
