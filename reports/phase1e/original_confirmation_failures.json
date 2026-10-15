@@ -1,0 +1,154 @@
+[
+  {
+    "run": "runs/phase1d_confirm_relevance_k2",
+    "outputs_complete": true,
+    "valid": 498,
+    "invalid": 2,
+    "missing": [],
+    "failures": [
+      {
+        "task_id": "5a7363465542991f29ee2dd5",
+        "directory": "runs/phase1d_confirm_relevance_k2/task_00045",
+        "status": "INVALID_RUNTIME_EVALUATION",
+        "final_answer_http_calls": 2,
+        "answer_finish_reasons": [
+          "stop",
+          "stop"
+        ],
+        "json_rejections": [
+          {
+            "role": "phase1_answer",
+            "attempt": 1,
+            "reason": "1 validation error for ShortAnswer\n  Value error, An answer needs non-empty text and source citations [type=value_error, input_value={'abstain': False, 'answe...Oudin', 'citations': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+            "raw_response_hash": "f475e245c87b18087ded36c0211f86f1c17806bb6807ee58f1c0dcca4a487ccd"
+          },
+          {
+            "role": "phase1_answer",
+            "attempt": 2,
+            "reason": "1 validation error for ShortAnswer\n  Value error, An answer needs non-empty text and source citations [type=value_error, input_value={'abstain': False, 'answe...Oudin', 'citations': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+            "raw_response_hash": "c40488ece9189df6220957ca69db0f403f49482d2ab96e44fc1d1fd33e102ac3"
+          }
+        ],
+        "errors": [
+          {
+            "elapsed_s": 4.339987721294165,
+            "error": "phase1_answer: two output attempts failed",
+            "error_type": "ProtocolError",
+            "event": "invalid_run"
+          }
+        ],
+        "usage": {
+          "search": 1,
+          "decision": 2,
+          "read": 2,
+          "llm": 4,
+          "llm.prompt_tokens": 2740,
+          "llm.completion_tokens": 301
+        },
+        "raw_events_path": "runs/phase1d_confirm_relevance_k2/task_00045/events.jsonl"
+      },
+      {
+        "task_id": "5ae60ea9554299546bf8304e",
+        "directory": "runs/phase1d_confirm_relevance_k2/task_00148",
+        "status": "INVALID_RUNTIME_EVALUATION",
+        "final_answer_http_calls": 2,
+        "answer_finish_reasons": [
+          "stop",
+          "stop"
+        ],
+        "json_rejections": [
+          {
+            "role": "phase1_answer",
+            "attempt": 1,
+            "reason": "1 validation error for ShortAnswer\n  Value error, An answer needs non-empty text and source citations [type=value_error, input_value={'abstain': False, 'answe...ember', 'citations': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+            "raw_response_hash": "7db91dd27533423b7a2dc0f02624eb3433b7cac311892dd913f0f207573415fb"
+          },
+          {
+            "role": "phase1_answer",
+            "attempt": 2,
+            "reason": "1 validation error for ShortAnswer\n  Value error, An answer needs non-empty text and source citations [type=value_error, input_value={'abstain': False, 'answe...ember', 'citations': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+            "raw_response_hash": "c02a20928d3f73d030e948607a2248e71faa7465e2c9b811eed5ba46f1d939ef"
+          }
+        ],
+        "errors": [
+          {
+            "elapsed_s": 4.0238405354321,
+            "error": "phase1_answer: two output attempts failed",
+            "error_type": "ProtocolError",
+            "event": "invalid_run"
+          }
+        ],
+        "usage": {
+          "search": 1,
+          "decision": 2,
+          "read": 2,
+          "llm": 4,
+          "llm.prompt_tokens": 3340,
+          "llm.completion_tokens": 256
+        },
+        "raw_events_path": "runs/phase1d_confirm_relevance_k2/task_00148/events.jsonl"
+      }
+    ],
+    "efficacy_inference_permitted_by_zero_invalid_gate": false
+  },
+  {
+    "run": "runs/phase1d_confirm_utility_static_k2",
+    "outputs_complete": true,
+    "valid": 499,
+    "invalid": 1,
+    "missing": [],
+    "failures": [
+      {
+        "task_id": "5a7363465542991f29ee2dd5",
+        "directory": "runs/phase1d_confirm_utility_static_k2/task_00045",
+        "status": "INVALID_RUNTIME_EVALUATION",
+        "final_answer_http_calls": 2,
+        "answer_finish_reasons": [
+          "stop",
+          "stop"
+        ],
+        "json_rejections": [
+          {
+            "role": "phase1_answer",
+            "attempt": 1,
+            "reason": "1 validation error for ShortAnswer\n  Value error, An answer needs non-empty text and source citations [type=value_error, input_value={'abstain': False, 'answe...Oudin', 'citations': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+            "raw_response_hash": "8ad4ac115ce80fecf0aea7ac04a90574e975cfa7023172dcfd77c6669e6f9b7a"
+          },
+          {
+            "role": "phase1_answer",
+            "attempt": 2,
+            "reason": "1 validation error for ShortAnswer\n  Value error, An answer needs non-empty text and source citations [type=value_error, input_value={'abstain': False, 'answe...Oudin', 'citations': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+            "raw_response_hash": "a8ea2378f6cd3edaffaf0eab0d92ce5e26da6081ba3ac05c8e59ad0a8212769e"
+          }
+        ],
+        "errors": [
+          {
+            "elapsed_s": 5.868914391845465,
+            "error": "phase1_answer: two output attempts failed",
+            "error_type": "ProtocolError",
+            "event": "invalid_run"
+          }
+        ],
+        "usage": {
+          "search": 1,
+          "decision": 4,
+          "read": 2,
+          "llm": 4,
+          "llm.prompt_tokens": 2740,
+          "llm.completion_tokens": 301
+        },
+        "raw_events_path": "runs/phase1d_confirm_utility_static_k2/task_00045/events.jsonl"
+      }
+    ],
+    "efficacy_inference_permitted_by_zero_invalid_gate": false
+  },
+  {
+    "run": "runs/phase1d_confirm_utility_dynamic_k2",
+    "outputs_complete": true,
+    "valid": 500,
+    "invalid": 0,
+    "missing": [],
+    "failures": [],
+    "efficacy_inference_permitted_by_zero_invalid_gate": true
+  }
+]

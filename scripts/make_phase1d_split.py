@@ -38,7 +38,7 @@ def build(source, excluded, out, tune_n=60, confirm_n=500, seed=20261014):
     splits = {"tune": eligible[:tune_n],
               "confirm": eligible[tune_n:tune_n + confirm_n]}
     splits["smoke"] = splits["tune"][:min(20, tune_n)]
-    documents, tasks_by_id = {}, {}
+    documents, tasks_by_id, title_versions = {}, {}, {}
     for row in splits["tune"] + splits["confirm"]:
         context = row["context"]
         if len(context) != 10 or len({title for title, _ in context}) != 10:
@@ -47,15 +47,18 @@ def build(source, excluded, out, tune_n=60, confirm_n=500, seed=20261014):
         for title, sentences in context:
             if not sentences or not all(isinstance(x, str) for x in sentences):
                 raise ValueError("Invalid context sentences")
-            doc_id = hashlib.sha256(title.encode()).hexdigest()
-            document = {"id": doc_id, "title": title, "sentences": sentences,
-                        "source": "HotpotQA context"}
-            if doc_id in documents and documents[doc_id] != document:
-                raise ValueError("Same title has conflicting text; resolve versions before running")
-            documents[doc_id] = document
-            scope.append(doc_id)
+            content = json.dumps(sentences, ensure_ascii=False, separators=(",", ":"))
+            versions = title_versions.setdefault(title, {})
+            if content not in versions:
+                suffix = "" if not versions else "_" + hashlib.sha256(content.encode()).hexdigest()[:12]
+                doc_id = hashlib.sha256(title.encode()).hexdigest() + suffix
+                versions[content] = doc_id
+                documents[doc_id] = {"id": doc_id, "title": title, "sentences": sentences,
+                                     "source": "HotpotQA context"}
+            scope.append(versions[content])
         tasks_by_id[row["_id"]] = {"id": row["_id"], "question": row["question"],
                                     "corpus_ids": scope}
+    versioned_titles = sorted(title for title, versions in title_versions.items() if len(versions) > 1)
     out.mkdir(parents=True, exist_ok=False)
     corpus = out / "corpus.jsonl"
     corpus.write_text("".join(json.dumps(documents[key], ensure_ascii=False) + "\n"
@@ -72,6 +75,7 @@ def build(source, excluded, out, tune_n=60, confirm_n=500, seed=20261014):
             {"path": str(path), "sha256": digest(path)} for path in excluded],
         "excluded_id_count": len(used),
         "ineligible_not_10_unique_titles": ineligible,
+        "versioned_titles": versioned_titles,
         "corpus_sha256": digest(corpus),
         "bm25_scope": "one frozen corpus for every split; per-task candidate scope is exactly 10",
         "splits": {name: {"n": len(subset), "task_ids": [row["_id"] for row in subset],

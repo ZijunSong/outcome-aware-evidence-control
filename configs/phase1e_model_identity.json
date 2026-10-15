@@ -1,0 +1,32 @@
+{
+  "llm_served_model": "qwen3-14b-r9",
+  "llm_base_url": "http://127.0.0.1:18102/v1",
+  "llm_weights": "/data/ppnm/models/Qwen3-14B",
+  "llm_quantization": "bfloat16",
+  "vllm_fingerprint_observed": "vllm-0.25.1-29616072",
+  "json_mode": "json_schema",
+  "enable_thinking": false,
+  "temperature": 0,
+  "searchjev_run": "/data/ppnm/models/SearchJev-4B",
+  "searchjev_base": "/data/ppnm/models/Qwen3.5-4B",
+  "searchjev_code_revision": "054ea81d43071b93e2d75b7396a729a2598ac6ac",
+  "jev_batch_size": 8,
+  "file_sha256": {
+    "/data/ppnm/models/SearchJev-4B/adapter/adapter_model.safetensors": "bba400460578e153d97ccd8433874fe096c9da05f760dab6885766e1dd4fc646",
+    "/data/ppnm/models/SearchJev-4B/adapter/adapter_config.json": "baf07dcef350fa116fdbb04a715f5fc3fecea2ece29154babff266732e85b13e",
+    "/data/ppnm/models/Qwen3.5-4B/config.json": "ddc63e1c717afa86c865bb5e01313d89d72bb53b97ad4a8a03ba8510c0621670",
+    "/data/ppnm/models/Qwen3.5-4B/model.safetensors-00001-of-00002.safetensors": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+    "/data/ppnm/models/Qwen3.5-4B/model.safetensors-00002-of-00002.safetensors": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+    "/data/ppnm/models/Qwen3-14B/model-00001-of-00008.safetensors": "e942bdbdf08857d16a8fef7d1dae9fceabeb4e84def6043485fe2f6f085dab0e",
+    "/data/ppnm/models/Qwen3-14B/model-00002-of-00008.safetensors": "f7c9c6eee628f5ad831d2d1d292e120505e5fcadeb38f88b4d3c4cb86306ccf9",
+    "/data/ppnm/models/Qwen3-14B/model-00003-of-00008.safetensors": "dfb8c5df9404b41ad6ae74e8b6b367135f017b4467b884cf71b17c71954f18a9",
+    "/data/ppnm/models/Qwen3-14B/model-00004-of-00008.safetensors": "eab286fec759e3e59ab228621aefa0fef14ed56039e06f959e67257d5af7604d",
+    "/data/ppnm/models/Qwen3-14B/model-00005-of-00008.safetensors": "97f0dc2992e59da95c466eff6f4fd0c8335843bbc36ed5c913a6f5150748c0e6",
+    "/data/ppnm/models/Qwen3-14B/model-00006-of-00008.safetensors": "9e8e76a013cd5e253865b792991e0b410f869b136b3c500079b531b09198e99e",
+    "/data/ppnm/models/Qwen3-14B/model-00007-of-00008.safetensors": "0aee70ee6e91dc00d818804fb47f124d13ee4ad5b4a64553e09dbf9391cd5750",
+    "/data/ppnm/models/Qwen3-14B/model-00008-of-00008.safetensors": "0d6b92296e326d39bbbaeb32c3ec454ac606da843d4c8ffa8edf010b62b8c9e0",
+    "/data/ppnm/models/Qwen3-14B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "/data/ppnm/models/Qwen3-14B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "/data/ppnm/models/Qwen3-14B/config.json": "e73c3664ca09b10a673fef0c22e8a6b456201d49bd4713c9691f775720e8857a"
+  }
+}
