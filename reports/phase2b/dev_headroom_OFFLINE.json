@@ -1,0 +1,411 @@
+{
+  "protocol": "phase2b-OFFLINE-headroom-v1",
+  "n": 60,
+  "counts": {
+    "wrong_with_all_support_titles_read": 15,
+    "valid_wrong": 28,
+    "one_extra_doc_support_proxy": 10,
+    "wrong_with_missing_support_title": 13,
+    "correct": 32
+  },
+  "warning": "Descriptive source-coverage proxy; no verifier or repair benefit established. Contains gold. Forbidden as online input.",
+  "tasks": [
+    {
+      "task_id": "5a9070dd5542995b442420b5",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a773c7755429972597f14b5",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "Hallett Cove, South Australia"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5add16b65542990d50227dd2",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5abd09585542996e802b469b",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ab8883455429916710eb084",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5adf86b45542993344016cc1",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "Diego, Prince of Asturias"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5ab9dbc2554299232ef4a224",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a88fa145542997e5c09a6e1",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a8b3d795542997f31a41cc1",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "Puddle of Mudd"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5a7e1b7155429965cec5ea6c",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae62c385542995703ce8b3e",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "Judas Priest",
+        "Killer World Tour"
+      ],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae1408a55429901ffe4ae2a",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7e30b255429934daa2fbeb",
+      "category": "correct",
+      "missing_support_titles": [
+        "Katharine Ross"
+      ],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a8be8215542995e66a47518",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a8eb4d65542990e94052b82",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7f3361554299306751369a",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a73024f5542991f9a20c5fc",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ab29bdc554299545a2cf9d1",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "Far-right politics"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "4 (2004 film)",
+        "Cinema of Russia"
+      ],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7ddd565542997cc2c474b2",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "Mary O'Connell"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5ae200655542994d89d5b2f4",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5adfa73b55429942ec259ad8",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a80e468554299260e20a1a9",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae8161555429952e35eaa04",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "2010 FA Community Shield"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5a74cfed5542993748c896ea",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae1f596554299234fd04372",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "2008 Summer Olympics"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5adf37955542993a75d2642e",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ab3acc5554299233954ff7e",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ac1089f554299012d1db688",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ac2509755429951e9e68543",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ab9188c5542991b5579f0f5",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a8089dc5542992bc0c4a765",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "1994–95 San Antonio Spurs season"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5a78c69e55429974737f787c",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ac2759655429921a00aaf7f",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a8b2dc055429950cd6afc62",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a8da97c554299068b959d84",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ac2a35055429967731025ce",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ac4d717554299076e296e0e",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7228f655429971e9dc9312",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ac3a7f75542993915413890",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a75fa8c55429976ec32bcda",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae12fcf5542990adbacf72c",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae679ec5542996d980e7b75",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae320f855429928c4239620",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "Pop Warner"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5ae206c45542994d89d5b311",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "What's Up (TV series)"
+      ],
+      "one_extra_doc_support_proxy": true
+    },
+    {
+      "task_id": "5a7222b155429971e9dc92c4",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae74818554299572ea547ad",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7c35025542996dd594b8d7",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a8fd9ac5542990a98493570",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7f3bcd55429930675136c3",
+      "category": "correct",
+      "missing_support_titles": [
+        "Hecuba (band)"
+      ],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7b7bed5542997c3ec971bc",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ab27587554299449642c8af",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7adaa35542992d025e670c",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5abcc96c5542996583600492",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a8b69f45542997f31a41d19",
+      "category": "wrong_with_missing_support_title",
+      "missing_support_titles": [
+        "I Write What I Like",
+        "Steve Biko"
+      ],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae748d1554299572ea547b0",
+      "category": "correct",
+      "missing_support_titles": [
+        "Wayne Garland"
+      ],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7348555542994cef4bc503",
+      "category": "correct",
+      "missing_support_titles": [
+        "Complete Works of Shakespeare"
+      ],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a7f6fd75542992e7d278cfa",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5a78f26055429970f5fffdeb",
+      "category": "wrong_with_all_support_titles_read",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    },
+    {
+      "task_id": "5ae76dfd5542997b22f6a755",
+      "category": "correct",
+      "missing_support_titles": [],
+      "one_extra_doc_support_proxy": false
+    }
+  ]
+}

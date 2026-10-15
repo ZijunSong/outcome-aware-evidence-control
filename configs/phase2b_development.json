@@ -1,0 +1,14 @@
+{
+  "protocol": "phase2b-verification-acquisition-v1",
+  "status": "DEVELOPMENT_NOT_FROZEN",
+  "base_commit": "TO_FILL_AFTER_IMPLEMENTATION",
+  "population": "already used 60-question phase1e development split; not a new confirmation sample",
+  "confirmation_n": null,
+  "prefix_policy": "frozen native utility_dynamic, K=2, one shared checkpoint per question",
+  "additional_reads": 1,
+  "policies": ["continue_dynamic", "verify_broad", "verify_local", "target_only"],
+  "primary": "verify_local minus continue_dynamic; all-assigned end-to-end answer EM",
+  "secondary": "verify_local minus verify_broad; inspected only after a positive primary",
+  "failure_rule": "bounded final reader failure scores 0; verifier protocol failure falls back to continue and keeps verifier_valid false; truncation blocks the batch",
+  "note": "This file does not authorize an 800-question confirmation. Open one only after the development gates and a frozen commit."
+}

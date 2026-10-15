@@ -1,0 +1,52 @@
+{
+  "protocol": "phase2b-report-v1",
+  "mode": "development",
+  "decision": "NO-GO",
+  "gates": {
+    "natural_errors": true,
+    "one_extra_doc_proxy": true,
+    "localizable": true,
+    "local_changes_document": false,
+    "local_differs_from_broad": true
+  },
+  "primary_exploratory": {
+    "n": 60,
+    "baseline_mean": 0.5166666666666667,
+    "method_mean": 0.5333333333333333,
+    "delta": 0.016666666666666666,
+    "paired_bootstrap_95ci": [
+      0.0,
+      0.05
+    ],
+    "wrong_to_right": 1,
+    "right_to_wrong": 0,
+    "mcnemar_exact_p": 1.0
+  },
+  "secondary_exploratory": {
+    "n": 60,
+    "baseline_mean": 0.5333333333333333,
+    "method_mean": 0.5333333333333333,
+    "delta": 0.0,
+    "paired_bootstrap_95ci": [
+      0.0,
+      0.0
+    ],
+    "wrong_to_right": 0,
+    "right_to_wrong": 0,
+    "mcnemar_exact_p": 1.0
+  },
+  "mechanism": {
+    "local_vs_continue_third_doc": 8,
+    "local_vs_broad_third_doc": 9,
+    "localizable_nondefer": 21,
+    "n": 60
+  },
+  "headroom_counts": {
+    "wrong_with_all_support_titles_read": 15,
+    "valid_wrong": 28,
+    "one_extra_doc_support_proxy": 10,
+    "wrong_with_missing_support_title": 13,
+    "correct": 32
+  },
+  "note": "Development intervals are not a confirmation. No 800-question set is authorized by this file."
+}
