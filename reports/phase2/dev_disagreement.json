@@ -1,0 +1,23 @@
+{
+  "n": 60,
+  "opportunity_task_rate_fixed": 0.2167,
+  "opportunity_task_n": 13,
+  "frontier_size_counts_fixed": {
+    "0": 3,
+    "1": 101,
+    "2": 16
+  },
+  "priority_proposals_fixed_arm": 16,
+  "same_state_target_disagreements": 2,
+  "priority_applied_different_target": 3,
+  "target_path_changed_n": 5,
+  "doc_path_changed_n": 3,
+  "selected_set_changed_n": 3,
+  "thresholds": {
+    "min_opportunity_task_rate": 0.2,
+    "min_disagreement_decisions": 20,
+    "min_questions_doc_changed": 10
+  },
+  "decision": "NO_GO",
+  "reason": "Estimated multi-goal opportunities just clear 20%, but same-state priority disagreements are 2 and document-selection changes are 3, below the pre-set development gates."
+}

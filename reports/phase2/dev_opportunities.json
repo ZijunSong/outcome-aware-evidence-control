@@ -1,0 +1,2693 @@
+[
+  {
+    "run": "runs/phase2_dev_select_fixed",
+    "n": 60,
+    "decision_n": 120,
+    "opportunity_task_n": 13,
+    "opportunity_task_rate": 0.21666666666666667,
+    "frontier_size_counts": {
+      "1": 101,
+      "2": 16,
+      "0": 3
+    },
+    "warning": "Frontier uses observer-estimated unresolved status, not verified support. An opportunity is necessary but does not imply useful policy disagreement.",
+    "tasks": [
+      {
+        "task_id": "5a9070dd5542995b442420b5",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0cdcb2916bb73a768da47edae7ceab60dd08233008e28ed6ad1f36f3e1b5c937"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "17d13fa0493ac96a8188b229d3279d03839edf60703b79c561838f1ff700608a"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a773c7755429972597f14b5",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d32f27b1ca843b23e229eec3c97fa5744d90b8c9724a46824a2f286d40c24440"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "bdc1515482e9bfdb0331a56f00d641cb853a3731ab7a3c5f246f8ed2cb89f969"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5add16b65542990d50227dd2",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b5bf37c128be1b647c04ffd274876fab9d843811146181b1b10d830c579ea366"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "02096d67ce64f9c6a12fef0fc82f465413f84d96b7d7db0b6474d9e3afef0588"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5abd09585542996e802b469b",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b7085dbfca332646c9f83a42a6cc7bb5d457483fe77956416c44c88e70c0e1ff"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "778abd6498e444e6b7d6416d2ea3932298793a2749b7a39915558f6deec85efc"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab8883455429916710eb084",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "c2482207fd8745c6171f6aa6b0e710373382791b9ad70e6b5ad233233e6b13ca"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "7bf685805ba0bf47590953af2aca02f1fb1dd9b4cbe09341eac23a8f52f454d5"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5adf86b45542993344016cc1",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2892715962e5aaf69f19b9129dc1fac29a17a0d20d8bd052c3c1161a08f73fc4"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "bf3d5ae32abd0c0565f350c719df63ae0da8b77c654e191f6f0afef782d54508"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab9dbc2554299232ef4a224",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "aeea14e1848d52295223ee6bef3fa1ade0a81eacc6da3e38e36f4b968a1acd54"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a5826184b272324b972e79547c8a94f9b389014c2274499ea9df77af3e54342f"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a88fa145542997e5c09a6e1",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "58cc6c006858d438a53e27f2bcdf28819d5bde0915ecd09db513b3163a23bdc8"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "f5d02fa7ffc4b19a467207ae639d13f3c3860f49be99194072fa0a3c2cc3bac2"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8b3d795542997f31a41cc1",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "e84c538e7fe250730ef62de220c40dfa808d3008c0cdb437181564b88b8714b8"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "67f79d7d072ce7755062e3ff30ca61922243cd33a836928514a2f651f051943c"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a7e1b7155429965cec5ea6c",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "e2d2b5a230cbf2a165c50cd7161a92a12ad4c7ad7c3c3c639d2dd4dbf406120c"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b870dc7f2929ce8f2262d26d6fbe5b435a8d1a9a320d886fb7c583e7a7229296"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae62c385542995703ce8b3e",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "97e849f74108a676af136c1ae6e2ed7f4c7b192e22a2186c65d3c119799a19ae"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0a70a670a2a42974c5a35c0216a8df276cfe6ff4d8da2e878f5f1af747cd5f6c"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae1408a55429901ffe4ae2a",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "29261557a51118517d6d1023820e2f2b2c4e814eebb46508d6b8141f00373417"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "548c8f82a82e0d529df234434e71b4469be79e98932db9e4b05f261e91f4b803"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a7e30b255429934daa2fbeb",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1ac6b156e46645f7b8404f84d8f21891203e3f479b688700357036792c6e81f8"
+          },
+          {
+            "revision": 1,
+            "frontier": [],
+            "opportunity": false,
+            "selected_doc_id": "4969f1aea7471d2c846c657933c1f3a0d3a672a82369b7d53c046f1735730986"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8be8215542995e66a47518",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2fa4e7758543df268223e02aa962e36b866812a45ce57de452ce05ae43afc40e"
+          },
+          {
+            "revision": 1,
+            "frontier": [],
+            "opportunity": false,
+            "selected_doc_id": "7bab32f4ceb634efe4fd1fa07935a316d96e9bf7c3c09160d2cdc850800f16cd"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8eb4d65542990e94052b82",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "77ca28c2c757d1f7a4db091a3002491d8691bd3991df7b9b74155a7f0d01bcfc"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3cdb0b799dce12de56a7c51246241468e511b8f6ec5d6c17db3c36396bc844b9"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7f3361554299306751369a",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "1f9886cdd7150450335c9208bf49ce1f971e4251199db9b3944cf0f6c091df12"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "9cd5694bac47e892cdfc82bf7b7a9600c03bbc5df8d2e38eea58fc5c58a54a9c"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a73024f5542991f9a20c5fc",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "07299608140728bab496c2fc9654710bda137727037f774806784d8379065e76"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a0364e620d5037aa296cf58d663bbfc0b844de3c5c6577638d44514fb61dd342"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab29bdc554299545a2cf9d1",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "7e9fdf93fdfffd1966d6a62b1d4855c2ea3b8c6805a6ab50e126d89350c23717"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3fab40811d0f2da8b24602c4377c220f04fc136a3ae7c85cdfe9a0fdb206a53f"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a74655b55429974ef308bf0",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "6d010c9bd89a20194351dccbff25648be599838424eb7716043c59e8c2773c65"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "bf3e136ffd625053de2fcc98e47ac982e8230a4a3c3a37cee73dfc3317b43974"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7ddd565542997cc2c474b2",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "8648387bbfc8cbe9be796fdca22d67cd9c25f6442b31165fbf109754b6376582"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1a11d3d9fe06191d8dfae3366ccdbe8d52732c4198a828595c6681951378a50c"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae200655542994d89d5b2f4",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "de5a312368abf28f703bf1838631644308bc93d7c9439f869e83771ea60419c9"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "ffdbda3e1721e991c3e33bebb7d29ab19ab5277bb17bd040b351bbc0a32a0cf0"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5adfa73b55429942ec259ad8",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1a63a3ed32a75fe323985bb1256c5ae373fbe0d3a9961d2004e209cf9c31c0fc"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "4a698b796292678e620083630e242a78a150cb4728ddf0859afcd23ff3b06a84"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a80e468554299260e20a1a9",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "14a9374a4e1f4b310a469bda5d54c216c4ca2c49d3f414399ce75ba8c35ecbb3"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "e06a36e25f2c50c2253a86a93b489f63f08576d7a3412e6376bdabc8e8816be1"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae8161555429952e35eaa04",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "7c39e08a8901be4d6c7c08df16ac3036ab7b5c37f9bf054fb1dcd03796f243d1"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b0f52f0a8493c261d998f9aee3fd7899bb385defea11ec663eb1776f0b3203fe"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a74cfed5542993748c896ea",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "2f88d2d16c8b85bf3262a4eb463e486f8617cc3f6dca73b4dbf5842f20fc8db8"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "0224374970edc5b7f5c4f58754bf1dfb2e1d6b15c8a1dc72c1ee0799425b2f0b"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ae1f596554299234fd04372",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "328d132fdbe7c8f4712c406e6d111f8a0bfe2111eda0110f0b08171b419c6769"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "c582eec22ee37c707b0da6cadea1333dcbee8fa43cd1630f6e6ad8d6b85b396e"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5adf37955542993a75d2642e",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "78b4cdf9643e866c8e471fab998a82b9b69591a0469547ab69a4ce1e4eb728d3"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "ce62fe84e84c58babd7cd0039dd184843c88c675ec03230f9ba019dba5eaee73"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab3acc5554299233954ff7e",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1531466d58061ec3bc48bac824d958ed31157302c47217aa4b0327c256d3ff46"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "95f702f9d49abfe1dcba20ea1e066b893c08be302471539f3a5993d8f8ee5b1f"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ac1089f554299012d1db688",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "de06aae28acd81b8ea9bae766b2f8d314c3b0ccd0244fc0923650e10ac66a3e6"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "de7b469cb27efb72a924df6ac35710b01d1fdd806742e6a719187363976910a7"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ac2509755429951e9e68543",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d439f49fc4c9f5b1fce3e6778ca6c57bc3a3de4f1a0cf0ad83da7fe3d7b57aa8"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0805e51a43a790db91da26a35a4e2a67c8b82332e2247f75559327c84bd270ec"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab9188c5542991b5579f0f5",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "fb00a735b20a937ed67448fce31a0b25b816b37504e2e16cd170c58229441945"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a53e8ef63f5ebceb455611fc9c1755324955c3aedccc52da07944139070eee57"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a8089dc5542992bc0c4a765",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "61e3bfcde22c60eca378970c19f28f13a363d2cec19e2cbe9f6490b5f7fe1238"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a7e9f2bfce7f141d3cda49694acd48f9b29d3a440f2ef5acbdd6713aacc32e6c"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a78c69e55429974737f787c",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "52d4a854f1eb3344c7d16915bbd4f3b71329f7ac13f5b9b95f8414c482049719"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "e8a96e624293f5021dd2eb6fb3967f50da26eb609e7d60cb834d218e03247d12"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ac2759655429921a00aaf7f",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "7999c82eca5720741cde11161539795715518ed3d8b897d753cf477a5ec20b84"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "45d06ea55b701e6a582b4fcebc1cb6437b845675d9571f8ffd312d354797d46f"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a8b2dc055429950cd6afc62",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "03b979eb4182091316ed448e4433a281e933b131037706a7b6c83cb1748f030b"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "952e82bc32ff3654ce3823572ece841b4c878b0c45be5ea9b6c5441209349e55"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8da97c554299068b959d84",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "1367b1db4dddcac58ceae6347341fc01e18687a0c7267213e0d03b8254f52cd0"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "d00e6d91af2f4a5ced8d850840f73903d438fe6a196255df6d19acd35df57db9"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ac2a35055429967731025ce",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "189ce7580d34ad396e87cd832ef6194eddce0ad20c1369fd76300cb53cf6d926"
+          },
+          {
+            "revision": 1,
+            "frontier": [],
+            "opportunity": false,
+            "selected_doc_id": "8c36c0fc9033f93b15e76bc5b9de7869be1b09af9fc9a7f10c42c07d2bd4ac21"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ac4d717554299076e296e0e",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1d7d1df215c9b1d8c639efb4a196207e00e18d4696377f9f2b5ef8e5eb453f6f"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d237334138fc39e313d6c4e30d20d3df9501fa9c106c56c78469cfa64e48982e"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7228f655429971e9dc9312",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0d3bc2ef362629446aca8ece11b5a6e5e1f098740b9963c1305a1a23b6c21a2a"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "f47b6a63189799c210ce26b376e3b1b8d3379384e083a1bd67b28cae3e8306fc"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ac3a7f75542993915413890",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "6baf51f821e8fa94fa0ef5e318288e610e496d29a3afd432939c73c9ba656185"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "bedf496f694d8976031fa35eacf29375bdb36e24499b3a81d4f8041eec25aff9"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a75fa8c55429976ec32bcda",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a222835d28e323dfa6dd2f8e3e085b7b9b925fc228d4517720dbb2f6882f23bc"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1c8a9a84cd1e60e04c328f3b74d38635266fce6c150da00add75bf2050149da5"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae12fcf5542990adbacf72c",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "5d39d0ba5aff9d20b33e8c0ce3bec3a0566f4d3f4f222ed0c2202060b99becec"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "795445857191846e748a45a856fb66cccfa4d951102d152d800ef355edd6412b"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ae679ec5542996d980e7b75",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "147c138886b32d6ca88f60b76b2968c2b323fc6fb3d3cc518876b0f77e015ffe"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3c382074b2c177d5d4e959445f3a5e2d3c0b5d74b91a09640a6bd9fac457907e"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae320f855429928c4239620",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "8bbe79348899b3d15ab83b9fc5183494cd027eb2d6756ecfe76c27a3a361ab32"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2e41e34007fed91a7743f7a9765a84261c92eceef513b3600f50d90166f493b8"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae206c45542994d89d5b311",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "000b7c744939ab8cd49303771428ebd344ffdb220a0c457200733d6713304cec"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "6f557ee47e7aa23822c4c0ffb94cae4ad08ddc3b2b530d2b770cd7ca4429c25e"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7222b155429971e9dc92c4",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "9a147f6ff5483ae3084f3131f8140677222a18f738fe5fea9cef708b27c4db44"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "5976baf7653aa66144373541c0a0a3f0abe06451bd8de4846f52ee4c082bbd92"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ae74818554299572ea547ad",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "59d3d884e7c11fcfb5a62d3235709051e74bc763ba7c1c45a717fee5e9b3cf2f"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "dbb749fbf74f0efcf376067125364c84c3be42b20541b5aec4599f8450b55ff3"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7c35025542996dd594b8d7",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "4db069ec55be341ca29977ace0e7223fbb0cd878d4662e676b9ba2a5bb3ebb1d"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1e438e297848f894146be67488bda90048e9dbe40490bae4d477848eed560664"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8fd9ac5542990a98493570",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "a5e32a5a68faf9c9f143bdc4ead16f8534a9fb4dc6831d441d76993747e29fff"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b4a91f8b59980a85e908822371e290cff529caf45a735885a75965d595e0a6e8"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a7f3bcd55429930675136c3",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "70f2f6eaaa1bd188ffa16dcbee347934241633f27813d2bb33689b3382577ded"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g4"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "8180f732bbded69b114a10715794c546603820fc605708a7b8851afd3a1e8d3a"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7b7bed5542997c3ec971bc",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "83b407d062f9b04fc2815fb9c3ace814b1936d9a22e4811d294f4967dbc26af5"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0c368c4a90ccddf0ff532fe66eb2a5046f4d845379272eb284908c190bb45951"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab27587554299449642c8af",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2eeb757f582818a2dfb5e2949a3640ad34380ba2da7881c2cff469687dff647c"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "697c157fa5952155e00ec095755ece28c01af128783add34bea7a2869c5f6f8a"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7adaa35542992d025e670c",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "5c8814f36a8629116e44c5595cc1ab8c046396e9f4edce6d53db0c92eeba2546"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d8d0b1f652da75f396beffe3988e57f5fb8c736c3217dd19bbe7308bfb9a6fba"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5abcc96c5542996583600492",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2c7f2132bd827aa29dbcdd3d6bc8e4a8643f33613df57f57b8e75fbfb47d0736"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "cf36e58adcf9b65c69a36fdb8932d8f29e55db3284b78373107049ebd7af2f7a"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8b69f45542997f31a41d19",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "9d6c970ef834df2c309700c485929c3a3d74a739321a5a96f84f633bb6fd6dd2"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d3707b5e252b185a6c0bd9546f0edb73a79600108748558e8d8c77311bc4ad76"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae748d1554299572ea547b0",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3fda75c9883776f95be11be4ff99629fc315003fc0da69e00337a15737b0f26f"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "f146f7b07e72eb5b10df3d08181f38ea516aeeac43502cc2cc1a4dc8c2e195c5"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7348555542994cef4bc503",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1a3771f5476a420576d9f6dbbd75b2f86aa9115a7b44dbb0d80c453592305224"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "591ba5e042c33d5f64df9ae79c67587f84ac5d49f8ec2adf73849d2da7b20020"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7f6fd75542992e7d278cfa",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "8c9fea7ad016e086c7d3c4bf7b1f51fa2a11d3554f634688ce75523b714997a9"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2387104f7561fad88d53600398a6344a21ec34ff06a4b035c021f82b74a163bc"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a78f26055429970f5fffdeb",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "fcab60ebd15eeac3d870191218cf6c7e5e645e54a249076347c077cf212a210d"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "4be6bbbddd286cc9d8a976f9aa75f4c0f7ae484022fcbee73cb973b85c9f9a8f"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae76dfd5542997b22f6a755",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "27a8e182c7ef4c74c27b135db84ad5d98ffe477b92724f4c5e5b8527baa2637d"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "9c799c9c89cefbebfdc253bcc5df7a2d259cea7c29a3123a5b56a5dfac4daea5"
+          }
+        ],
+        "has_opportunity": false
+      }
+    ]
+  },
+  {
+    "run": "runs/phase2_dev_select_priority",
+    "n": 60,
+    "decision_n": 120,
+    "opportunity_task_n": 13,
+    "opportunity_task_rate": 0.21666666666666667,
+    "frontier_size_counts": {
+      "1": 100,
+      "2": 17,
+      "0": 3
+    },
+    "warning": "Frontier uses observer-estimated unresolved status, not verified support. An opportunity is necessary but does not imply useful policy disagreement.",
+    "tasks": [
+      {
+        "task_id": "5a9070dd5542995b442420b5",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0cdcb2916bb73a768da47edae7ceab60dd08233008e28ed6ad1f36f3e1b5c937"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "17d13fa0493ac96a8188b229d3279d03839edf60703b79c561838f1ff700608a"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a773c7755429972597f14b5",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d32f27b1ca843b23e229eec3c97fa5744d90b8c9724a46824a2f286d40c24440"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "bdc1515482e9bfdb0331a56f00d641cb853a3731ab7a3c5f246f8ed2cb89f969"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5add16b65542990d50227dd2",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b5bf37c128be1b647c04ffd274876fab9d843811146181b1b10d830c579ea366"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "02096d67ce64f9c6a12fef0fc82f465413f84d96b7d7db0b6474d9e3afef0588"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5abd09585542996e802b469b",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b7085dbfca332646c9f83a42a6cc7bb5d457483fe77956416c44c88e70c0e1ff"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "778abd6498e444e6b7d6416d2ea3932298793a2749b7a39915558f6deec85efc"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab8883455429916710eb084",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "c2482207fd8745c6171f6aa6b0e710373382791b9ad70e6b5ad233233e6b13ca"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "7bf685805ba0bf47590953af2aca02f1fb1dd9b4cbe09341eac23a8f52f454d5"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5adf86b45542993344016cc1",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2892715962e5aaf69f19b9129dc1fac29a17a0d20d8bd052c3c1161a08f73fc4"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "bf3d5ae32abd0c0565f350c719df63ae0da8b77c654e191f6f0afef782d54508"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab9dbc2554299232ef4a224",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "aeea14e1848d52295223ee6bef3fa1ade0a81eacc6da3e38e36f4b968a1acd54"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a5826184b272324b972e79547c8a94f9b389014c2274499ea9df77af3e54342f"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a88fa145542997e5c09a6e1",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "58cc6c006858d438a53e27f2bcdf28819d5bde0915ecd09db513b3163a23bdc8"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "f5d02fa7ffc4b19a467207ae639d13f3c3860f49be99194072fa0a3c2cc3bac2"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8b3d795542997f31a41cc1",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "e84c538e7fe250730ef62de220c40dfa808d3008c0cdb437181564b88b8714b8"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "67f79d7d072ce7755062e3ff30ca61922243cd33a836928514a2f651f051943c"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a7e1b7155429965cec5ea6c",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "e2d2b5a230cbf2a165c50cd7161a92a12ad4c7ad7c3c3c639d2dd4dbf406120c"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b870dc7f2929ce8f2262d26d6fbe5b435a8d1a9a320d886fb7c583e7a7229296"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae62c385542995703ce8b3e",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "97e849f74108a676af136c1ae6e2ed7f4c7b192e22a2186c65d3c119799a19ae"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "095911f148fb379649a8988d8290bf2563d143e1038ea0d971b93f8921c63cde"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae1408a55429901ffe4ae2a",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "29261557a51118517d6d1023820e2f2b2c4e814eebb46508d6b8141f00373417"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "548c8f82a82e0d529df234434e71b4469be79e98932db9e4b05f261e91f4b803"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a7e30b255429934daa2fbeb",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1ac6b156e46645f7b8404f84d8f21891203e3f479b688700357036792c6e81f8"
+          },
+          {
+            "revision": 1,
+            "frontier": [],
+            "opportunity": false,
+            "selected_doc_id": "4969f1aea7471d2c846c657933c1f3a0d3a672a82369b7d53c046f1735730986"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8be8215542995e66a47518",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2fa4e7758543df268223e02aa962e36b866812a45ce57de452ce05ae43afc40e"
+          },
+          {
+            "revision": 1,
+            "frontier": [],
+            "opportunity": false,
+            "selected_doc_id": "7bab32f4ceb634efe4fd1fa07935a316d96e9bf7c3c09160d2cdc850800f16cd"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8eb4d65542990e94052b82",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "77ca28c2c757d1f7a4db091a3002491d8691bd3991df7b9b74155a7f0d01bcfc"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3cdb0b799dce12de56a7c51246241468e511b8f6ec5d6c17db3c36396bc844b9"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7f3361554299306751369a",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "1f9886cdd7150450335c9208bf49ce1f971e4251199db9b3944cf0f6c091df12"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "9cd5694bac47e892cdfc82bf7b7a9600c03bbc5df8d2e38eea58fc5c58a54a9c"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a73024f5542991f9a20c5fc",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "07299608140728bab496c2fc9654710bda137727037f774806784d8379065e76"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a0364e620d5037aa296cf58d663bbfc0b844de3c5c6577638d44514fb61dd342"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab29bdc554299545a2cf9d1",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "7e9fdf93fdfffd1966d6a62b1d4855c2ea3b8c6805a6ab50e126d89350c23717"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3fab40811d0f2da8b24602c4377c220f04fc136a3ae7c85cdfe9a0fdb206a53f"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a74655b55429974ef308bf0",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "6d010c9bd89a20194351dccbff25648be599838424eb7716043c59e8c2773c65"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "bf3e136ffd625053de2fcc98e47ac982e8230a4a3c3a37cee73dfc3317b43974"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7ddd565542997cc2c474b2",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "8648387bbfc8cbe9be796fdca22d67cd9c25f6442b31165fbf109754b6376582"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1a11d3d9fe06191d8dfae3366ccdbe8d52732c4198a828595c6681951378a50c"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae200655542994d89d5b2f4",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "de5a312368abf28f703bf1838631644308bc93d7c9439f869e83771ea60419c9"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "ffdbda3e1721e991c3e33bebb7d29ab19ab5277bb17bd040b351bbc0a32a0cf0"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5adfa73b55429942ec259ad8",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1a63a3ed32a75fe323985bb1256c5ae373fbe0d3a9961d2004e209cf9c31c0fc"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "4a698b796292678e620083630e242a78a150cb4728ddf0859afcd23ff3b06a84"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a80e468554299260e20a1a9",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "14a9374a4e1f4b310a469bda5d54c216c4ca2c49d3f414399ce75ba8c35ecbb3"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "e06a36e25f2c50c2253a86a93b489f63f08576d7a3412e6376bdabc8e8816be1"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae8161555429952e35eaa04",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "7c39e08a8901be4d6c7c08df16ac3036ab7b5c37f9bf054fb1dcd03796f243d1"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b0f52f0a8493c261d998f9aee3fd7899bb385defea11ec663eb1776f0b3203fe"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a74cfed5542993748c896ea",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "2f88d2d16c8b85bf3262a4eb463e486f8617cc3f6dca73b4dbf5842f20fc8db8"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "0224374970edc5b7f5c4f58754bf1dfb2e1d6b15c8a1dc72c1ee0799425b2f0b"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ae1f596554299234fd04372",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "328d132fdbe7c8f4712c406e6d111f8a0bfe2111eda0110f0b08171b419c6769"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "c582eec22ee37c707b0da6cadea1333dcbee8fa43cd1630f6e6ad8d6b85b396e"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5adf37955542993a75d2642e",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "78b4cdf9643e866c8e471fab998a82b9b69591a0469547ab69a4ce1e4eb728d3"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "ce62fe84e84c58babd7cd0039dd184843c88c675ec03230f9ba019dba5eaee73"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab3acc5554299233954ff7e",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1531466d58061ec3bc48bac824d958ed31157302c47217aa4b0327c256d3ff46"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "95f702f9d49abfe1dcba20ea1e066b893c08be302471539f3a5993d8f8ee5b1f"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ac1089f554299012d1db688",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "de06aae28acd81b8ea9bae766b2f8d314c3b0ccd0244fc0923650e10ac66a3e6"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "de7b469cb27efb72a924df6ac35710b01d1fdd806742e6a719187363976910a7"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ac2509755429951e9e68543",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d439f49fc4c9f5b1fce3e6778ca6c57bc3a3de4f1a0cf0ad83da7fe3d7b57aa8"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0805e51a43a790db91da26a35a4e2a67c8b82332e2247f75559327c84bd270ec"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab9188c5542991b5579f0f5",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "fb00a735b20a937ed67448fce31a0b25b816b37504e2e16cd170c58229441945"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a53e8ef63f5ebceb455611fc9c1755324955c3aedccc52da07944139070eee57"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a8089dc5542992bc0c4a765",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "61e3bfcde22c60eca378970c19f28f13a363d2cec19e2cbe9f6490b5f7fe1238"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a7e9f2bfce7f141d3cda49694acd48f9b29d3a440f2ef5acbdd6713aacc32e6c"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a78c69e55429974737f787c",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "52d4a854f1eb3344c7d16915bbd4f3b71329f7ac13f5b9b95f8414c482049719"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "e8a96e624293f5021dd2eb6fb3967f50da26eb609e7d60cb834d218e03247d12"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ac2759655429921a00aaf7f",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "2dcd6b42ff1b729e62074c8c5e674c5e5174a76a538642b69940e408606b91b0"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "45d06ea55b701e6a582b4fcebc1cb6437b845675d9571f8ffd312d354797d46f"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a8b2dc055429950cd6afc62",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "03b979eb4182091316ed448e4433a281e933b131037706a7b6c83cb1748f030b"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "952e82bc32ff3654ce3823572ece841b4c878b0c45be5ea9b6c5441209349e55"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8da97c554299068b959d84",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "1367b1db4dddcac58ceae6347341fc01e18687a0c7267213e0d03b8254f52cd0"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "d00e6d91af2f4a5ced8d850840f73903d438fe6a196255df6d19acd35df57db9"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ac2a35055429967731025ce",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "189ce7580d34ad396e87cd832ef6194eddce0ad20c1369fd76300cb53cf6d926"
+          },
+          {
+            "revision": 1,
+            "frontier": [],
+            "opportunity": false,
+            "selected_doc_id": "8c36c0fc9033f93b15e76bc5b9de7869be1b09af9fc9a7f10c42c07d2bd4ac21"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ac4d717554299076e296e0e",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1d7d1df215c9b1d8c639efb4a196207e00e18d4696377f9f2b5ef8e5eb453f6f"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d237334138fc39e313d6c4e30d20d3df9501fa9c106c56c78469cfa64e48982e"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7228f655429971e9dc9312",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0d3bc2ef362629446aca8ece11b5a6e5e1f098740b9963c1305a1a23b6c21a2a"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "f47b6a63189799c210ce26b376e3b1b8d3379384e083a1bd67b28cae3e8306fc"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ac3a7f75542993915413890",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "6baf51f821e8fa94fa0ef5e318288e610e496d29a3afd432939c73c9ba656185"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "bedf496f694d8976031fa35eacf29375bdb36e24499b3a81d4f8041eec25aff9"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a75fa8c55429976ec32bcda",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "a222835d28e323dfa6dd2f8e3e085b7b9b925fc228d4517720dbb2f6882f23bc"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3a2e16b7bfaf7b0904a695249bc488bd21d37e15c8324533c2d736cc430f7b5c"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae12fcf5542990adbacf72c",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "5d39d0ba5aff9d20b33e8c0ce3bec3a0566f4d3f4f222ed0c2202060b99becec"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "795445857191846e748a45a856fb66cccfa4d951102d152d800ef355edd6412b"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ae679ec5542996d980e7b75",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "147c138886b32d6ca88f60b76b2968c2b323fc6fb3d3cc518876b0f77e015ffe"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3c382074b2c177d5d4e959445f3a5e2d3c0b5d74b91a09640a6bd9fac457907e"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae320f855429928c4239620",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "8bbe79348899b3d15ab83b9fc5183494cd027eb2d6756ecfe76c27a3a361ab32"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2e41e34007fed91a7743f7a9765a84261c92eceef513b3600f50d90166f493b8"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae206c45542994d89d5b311",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "000b7c744939ab8cd49303771428ebd344ffdb220a0c457200733d6713304cec"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "6f557ee47e7aa23822c4c0ffb94cae4ad08ddc3b2b530d2b770cd7ca4429c25e"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7222b155429971e9dc92c4",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "9a147f6ff5483ae3084f3131f8140677222a18f738fe5fea9cef708b27c4db44"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "5976baf7653aa66144373541c0a0a3f0abe06451bd8de4846f52ee4c082bbd92"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5ae74818554299572ea547ad",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "59d3d884e7c11fcfb5a62d3235709051e74bc763ba7c1c45a717fee5e9b3cf2f"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "dbb749fbf74f0efcf376067125364c84c3be42b20541b5aec4599f8450b55ff3"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7c35025542996dd594b8d7",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "4db069ec55be341ca29977ace0e7223fbb0cd878d4662e676b9ba2a5bb3ebb1d"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1e438e297848f894146be67488bda90048e9dbe40490bae4d477848eed560664"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8fd9ac5542990a98493570",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1",
+              "g2"
+            ],
+            "opportunity": true,
+            "selected_doc_id": "a5e32a5a68faf9c9f143bdc4ead16f8534a9fb4dc6831d441d76993747e29fff"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "b4a91f8b59980a85e908822371e290cff529caf45a735885a75965d595e0a6e8"
+          }
+        ],
+        "has_opportunity": true
+      },
+      {
+        "task_id": "5a7f3bcd55429930675136c3",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "70f2f6eaaa1bd188ffa16dcbee347934241633f27813d2bb33689b3382577ded"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g4"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "8180f732bbded69b114a10715794c546603820fc605708a7b8851afd3a1e8d3a"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7b7bed5542997c3ec971bc",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "83b407d062f9b04fc2815fb9c3ace814b1936d9a22e4811d294f4967dbc26af5"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "0c368c4a90ccddf0ff532fe66eb2a5046f4d845379272eb284908c190bb45951"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ab27587554299449642c8af",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2eeb757f582818a2dfb5e2949a3640ad34380ba2da7881c2cff469687dff647c"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g3"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "697c157fa5952155e00ec095755ece28c01af128783add34bea7a2869c5f6f8a"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7adaa35542992d025e670c",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "5c8814f36a8629116e44c5595cc1ab8c046396e9f4edce6d53db0c92eeba2546"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d8d0b1f652da75f396beffe3988e57f5fb8c736c3217dd19bbe7308bfb9a6fba"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5abcc96c5542996583600492",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2c7f2132bd827aa29dbcdd3d6bc8e4a8643f33613df57f57b8e75fbfb47d0736"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "cf36e58adcf9b65c69a36fdb8932d8f29e55db3284b78373107049ebd7af2f7a"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a8b69f45542997f31a41d19",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "9d6c970ef834df2c309700c485929c3a3d74a739321a5a96f84f633bb6fd6dd2"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "d3707b5e252b185a6c0bd9546f0edb73a79600108748558e8d8c77311bc4ad76"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae748d1554299572ea547b0",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "3fda75c9883776f95be11be4ff99629fc315003fc0da69e00337a15737b0f26f"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "f146f7b07e72eb5b10df3d08181f38ea516aeeac43502cc2cc1a4dc8c2e195c5"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7348555542994cef4bc503",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "1a3771f5476a420576d9f6dbbd75b2f86aa9115a7b44dbb0d80c453592305224"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "591ba5e042c33d5f64df9ae79c67587f84ac5d49f8ec2adf73849d2da7b20020"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a7f6fd75542992e7d278cfa",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "8c9fea7ad016e086c7d3c4bf7b1f51fa2a11d3554f634688ce75523b714997a9"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "2387104f7561fad88d53600398a6344a21ec34ff06a4b035c021f82b74a163bc"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5a78f26055429970f5fffdeb",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "fcab60ebd15eeac3d870191218cf6c7e5e645e54a249076347c077cf212a210d"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "4be6bbbddd286cc9d8a976f9aa75f4c0f7ae484022fcbee73cb973b85c9f9a8f"
+          }
+        ],
+        "has_opportunity": false
+      },
+      {
+        "task_id": "5ae76dfd5542997b22f6a755",
+        "decisions": [
+          {
+            "revision": 0,
+            "frontier": [
+              "g1"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "27a8e182c7ef4c74c27b135db84ad5d98ffe477b92724f4c5e5b8527baa2637d"
+          },
+          {
+            "revision": 1,
+            "frontier": [
+              "g2"
+            ],
+            "opportunity": false,
+            "selected_doc_id": "9c799c9c89cefbebfdc253bcc5df7a2d259cea7c29a3123a5b56a5dfac4daea5"
+          }
+        ],
+        "has_opportunity": false
+      }
+    ]
+  }
+]

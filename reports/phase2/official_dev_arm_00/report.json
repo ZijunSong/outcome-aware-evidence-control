@@ -1,0 +1,8 @@
+{
+  "n": 60,
+  "invalid_runs": 0,
+  "status": "VALID_RUNTIME",
+  "official_evaluator_returncode": 0,
+  "official_metrics_stdout": "{'em': 0.5333333333333333, 'f1': 0.6133333333333333, 'prec': 0.65, 'recall': 0.5972222222222222, 'sp_em': 0.11666666666666667, 'sp_f1': 0.47785714285714304, 'sp_prec': 0.7, 'sp_recall': 0.3858333333333333, 'joint_em': 0.06666666666666667, 'joint_f1': 0.3684920634920636, 'joint_prec': 0.5916666666666667, 'joint_recall': 0.2872222222222223}\n",
+  "official_metrics_stderr": ""
+}
