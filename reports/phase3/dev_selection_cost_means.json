@@ -1,0 +1,70 @@
+[
+  {
+    "policy": "utility",
+    "n": 60,
+    "means": {
+      "native_examples": 57,
+      "native_encoded_tokens": 37547,
+      "physical_decision_requests": 8,
+      "physical_llm_requests": 2.1166666666666667,
+      "physical_llm_input_tokens": 1983.5166666666667,
+      "physical_llm_output_tokens": 362.76666666666665,
+      "cached_logical_llm_requests": 0,
+      "logical_llm_requests": 2.1166666666666667,
+      "logical_llm_input_tokens": 1983.5166666666667,
+      "logical_llm_output_tokens": 362.76666666666665,
+      "physical_service_seconds": 7.591621557064355
+    }
+  },
+  {
+    "policy": "state_relevance",
+    "n": 60,
+    "means": {
+      "native_examples": 57,
+      "native_encoded_tokens": 37606.25,
+      "physical_decision_requests": 8,
+      "physical_llm_requests": 0.25,
+      "physical_llm_input_tokens": 253.51666666666668,
+      "physical_llm_output_tokens": 55.9,
+      "cached_logical_llm_requests": 1.9,
+      "logical_llm_requests": 2.15,
+      "logical_llm_input_tokens": 2015.7166666666667,
+      "logical_llm_output_tokens": 372.15,
+      "physical_service_seconds": 4.832187504942218
+    }
+  },
+  {
+    "policy": "question_relevance",
+    "n": 60,
+    "means": {
+      "native_examples": 57,
+      "native_encoded_tokens": 25178.5,
+      "physical_decision_requests": 8,
+      "physical_llm_requests": 1.15,
+      "physical_llm_input_tokens": 1118.0166666666667,
+      "physical_llm_output_tokens": 201.2,
+      "cached_logical_llm_requests": 1,
+      "logical_llm_requests": 2.15,
+      "logical_llm_input_tokens": 2010.8,
+      "logical_llm_output_tokens": 370.03333333333336,
+      "physical_service_seconds": 4.917243221774697
+    }
+  },
+  {
+    "policy": "setwise_llm",
+    "n": 60,
+    "means": {
+      "native_examples": 0,
+      "native_encoded_tokens": 0,
+      "physical_decision_requests": 0,
+      "physical_llm_requests": 2.45,
+      "physical_llm_input_tokens": 4273.75,
+      "physical_llm_output_tokens": 212.85,
+      "cached_logical_llm_requests": 1.6833333333333333,
+      "logical_llm_requests": 4.133333333333334,
+      "logical_llm_input_tokens": 5824.8,
+      "logical_llm_output_tokens": 499.21666666666664,
+      "physical_service_seconds": 2.5599557240804036
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "protocol": "phase3-exposure-audit-v1",
+  "counts": {
+    "tune": 60,
+    "smoke": 20,
+    "confirm": 700,
+    "main": 500,
+    "mechanism": 200
+  },
+  "smoke_subset_of_tune": true,
+  "main_plus_mechanism_equals_confirm": true,
+  "tune_overlaps_confirm": 0,
+  "scored_phase1e_confirmation_ids": "data/phase1e_studies/main",
+  "scored_phase1e_mechanism_ids": "data/phase1e_studies/mechanism",
+  "unexposed_confirmation_available": false,
+  "reason": "The 700-question phase1e confirm pool was fully consumed by the scored 500-question main study and the scored 200-question mechanism study. The 60-question tune set was used for phase3 development. No unused 800-question pool is available."
+}

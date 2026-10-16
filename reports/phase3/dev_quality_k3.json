@@ -1,0 +1,34 @@
+{
+  "protocol": "phase3-development-quality-v1",
+  "status": "EXPLORATORY_NOT_CONFIRMATION",
+  "reader_ledger_sha256": "090f7c24b5a305b9bab372a6c6e63b5c7f2710063a2691f8e53251b6bfeb40b1",
+  "policies": {
+    "utility": {
+      "n": 60,
+      "answer_em": 0.5333333333333333,
+      "answer_f1": 0.635429292929293,
+      "support_title_recall": 0.9083333333333333,
+      "all_support_titles": 0.8166666666666667,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 14
+    },
+    "state_relevance": {
+      "n": 60,
+      "answer_em": 0.5166666666666667,
+      "answer_f1": 0.636540404040404,
+      "support_title_recall": 0.8833333333333333,
+      "all_support_titles": 0.7833333333333333,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 21
+    }
+  },
+  "changes_versus_utility": {
+    "state_relevance": {
+      "same_set": 0.6666666666666666,
+      "first_doc_changed": 0.08333333333333333,
+      "second_doc_changed": 0.16666666666666666,
+      "n": 60
+    }
+  },
+  "note": "All assigned questions. Bounded reader failure scores 0. This file does not open a confirmation."
+}

@@ -1,0 +1,20 @@
+{
+  "protocol": "phase1e-prospective-paired-v1",
+  "endpoint": "answer_em",
+  "n": 60,
+  "baseline_mean": 0.5166666666666667,
+  "method_mean": 0.55,
+  "delta": 0.03333333333333333,
+  "paired_bootstrap_95ci": [
+    -0.03333333333333333,
+    0.1
+  ],
+  "wrong_to_right": 3,
+  "right_to_wrong": 1,
+  "mcnemar_exact_p": 0.625,
+  "reader_invalid_baseline": 0,
+  "reader_invalid_method": 0,
+  "zero_invalid_gate": false,
+  "endpoint_rule": "All assigned questions; bounded reader failure contributes 0 to answer EM. Support coverage is computed from selected titles regardless of reader success.",
+  "warning": "Requires prospective registration. This cannot change old phase1d's inference status; intervals on questions do not include all reader/model instability or prove equivalence."
+}

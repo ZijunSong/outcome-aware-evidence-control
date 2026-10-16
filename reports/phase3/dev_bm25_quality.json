@@ -1,0 +1,64 @@
+{
+  "protocol": "phase3-development-quality-v1",
+  "status": "EXPLORATORY_NOT_CONFIRMATION",
+  "reader_ledger_sha256": "cfc929c89cbcf4d5192f89428bd415306bb3c97b2d46fe8c931b5e6d2221249e",
+  "policies": {
+    "utility": {
+      "n": 60,
+      "answer_em": 0.45,
+      "answer_f1": 0.5005555555555555,
+      "support_title_recall": 0.6916666666666667,
+      "all_support_titles": 0.5333333333333333,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 9
+    },
+    "state_relevance": {
+      "n": 60,
+      "answer_em": 0.4166666666666667,
+      "answer_f1": 0.46722222222222226,
+      "support_title_recall": 0.6833333333333333,
+      "all_support_titles": 0.5166666666666667,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 8
+    },
+    "question_relevance": {
+      "n": 60,
+      "answer_em": 0.31666666666666665,
+      "answer_f1": 0.3561111111111111,
+      "support_title_recall": 0.5916666666666667,
+      "all_support_titles": 0.35,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 7
+    },
+    "setwise_llm": {
+      "n": 60,
+      "answer_em": 0.43333333333333335,
+      "answer_f1": 0.48888888888888893,
+      "support_title_recall": 0.675,
+      "all_support_titles": 0.4666666666666667,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 6
+    }
+  },
+  "changes_versus_utility": {
+    "state_relevance": {
+      "same_set": 0.75,
+      "first_doc_changed": 0.06666666666666667,
+      "second_doc_changed": 0.23333333333333334,
+      "n": 60
+    },
+    "question_relevance": {
+      "same_set": 0.4166666666666667,
+      "first_doc_changed": 0.2833333333333333,
+      "second_doc_changed": 0.6833333333333333,
+      "n": 60
+    },
+    "setwise_llm": {
+      "same_set": 0.48333333333333334,
+      "first_doc_changed": 0.3,
+      "second_doc_changed": 0.5166666666666667,
+      "n": 60
+    }
+  },
+  "note": "All assigned questions. Bounded reader failure scores 0. This file does not open a confirmation."
+}

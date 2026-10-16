@@ -1,0 +1,16 @@
+{
+  "protocol": "phase3-development-decision-v1",
+  "status": "DEVELOPMENT_NOT_CONFIRMATION",
+  "base_commit": "TO_FILL_AFTER_IMPLEMENTATION",
+  "population": "already used 60-question phase1e tune set",
+  "n": 60,
+  "primary_examined": "utility minus state_relevance, K=2, all-assigned answer EM",
+  "secondary_examined": "utility minus setwise_llm, descriptive only",
+  "explanatory_control": "question_relevance",
+  "alpha": 0.05,
+  "read_k": 2,
+  "decision": "DO_NOT_OPEN_CONFIRMATION",
+  "reason": "On the used 60-question set, utility and state_relevance differ by two questions and mostly select the same documents. Both are well above question-only. That supports state-conditional selection as a development finding and does not establish that the three-signal decomposition is necessary. The previously scored 700-question pool is exposed, so it cannot become this confirmation.",
+  "failure_rules": "bounded final reader failure scores 0; upstream selection failure blocks the batch",
+  "note": "This file is not a frozen confirmation protocol."
+}

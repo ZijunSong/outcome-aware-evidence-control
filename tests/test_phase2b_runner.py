@@ -12,7 +12,7 @@ from oec.phase1c import ShortAnswer
 ROOT = Path(__file__).resolve().parents[1]
 EVALUATOR = Path(os.environ.get(
     "OEC_TEST_OFFICIAL_EVALUATOR",
-    "/data/ppnm/oec_project/external/hotpot/hotpot_evaluate_v1.py"))
+    str(ROOT / "external/hotpot/hotpot_evaluate_v1.py")))
 
 
 def write_json(path, value):

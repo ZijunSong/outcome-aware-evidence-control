@@ -1,0 +1,21 @@
+{
+  "protocol": "phase3-OFFLINE-bm25-coverage-v1",
+  "n": 60,
+  "both_support_paragraphs_in_corpus": 1.0,
+  "support_paragraph_recall_at_50": 0.8416666666666667,
+  "both_support_paragraphs_in_pool": 0.7166666666666667,
+  "both_support_paragraphs_in_bm25_top2": 0.13333333333333333,
+  "pool_manifest": {
+    "protocol": "phase3-pooled-hotpot-bm25-v1",
+    "corpus_name": "pooled HotpotQA distractor paragraphs",
+    "not_fullwiki": true,
+    "top_n": 50,
+    "questions": 60,
+    "source_documents": 66635,
+    "pooled_documents": 2902,
+    "tokenizer": "\\w+ casefold",
+    "bm25": "LocalBM25 formula, positive scores only",
+    "gold_used": false
+  },
+  "warning": "Offline coverage only. Not a selector result and not FullWiki."
+}

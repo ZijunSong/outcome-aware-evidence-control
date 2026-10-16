@@ -1,0 +1,97 @@
+{
+  "policy": "utility",
+  "read_ks": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "prefix_mismatches": 13,
+  "examples": [
+    {
+      "task_id": "5ac2759655429921a00aaf7f",
+      "shorter_k": 1,
+      "longer_k": 2
+    },
+    {
+      "task_id": "5ac2759655429921a00aaf7f",
+      "shorter_k": 1,
+      "longer_k": 2
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 2
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 2
+    },
+    {
+      "task_id": "5ac2759655429921a00aaf7f",
+      "shorter_k": 2,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5ac2a35055429967731025ce",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ac2759655429921a00aaf7f",
+      "shorter_k": 2,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ae200655542994d89d5b2f4",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a8eb4d65542990e94052b82",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a7f3bcd55429930675136c3",
+      "shorter_k": 2,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a7f3bcd55429930675136c3",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5adfa73b55429942ec259ad8",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a7c35025542996dd594b8d7",
+      "shorter_k": 3,
+      "longer_k": 4
+    }
+  ]
+}

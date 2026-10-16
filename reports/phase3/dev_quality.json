@@ -1,0 +1,64 @@
+{
+  "protocol": "phase3-development-quality-v1",
+  "status": "EXPLORATORY_NOT_CONFIRMATION",
+  "reader_ledger_sha256": "1c36d51b8395fcef585ca6d2dc0d27f801fe120bca048d54c57ec75d6772afd0",
+  "policies": {
+    "utility": {
+      "n": 60,
+      "answer_em": 0.55,
+      "answer_f1": 0.63,
+      "support_title_recall": 0.8333333333333334,
+      "all_support_titles": 0.7166666666666667,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 5
+    },
+    "state_relevance": {
+      "n": 60,
+      "answer_em": 0.5166666666666667,
+      "answer_f1": 0.6077777777777776,
+      "support_title_recall": 0.8166666666666667,
+      "all_support_titles": 0.6833333333333333,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 7
+    },
+    "question_relevance": {
+      "n": 60,
+      "answer_em": 0.38333333333333336,
+      "answer_f1": 0.4311111111111111,
+      "support_title_recall": 0.725,
+      "all_support_titles": 0.5166666666666667,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 8
+    },
+    "setwise_llm": {
+      "n": 60,
+      "answer_em": 0.5166666666666667,
+      "answer_f1": 0.5911111111111111,
+      "support_title_recall": 0.8166666666666667,
+      "all_support_titles": 0.7,
+      "bounded_reader_failures": 0,
+      "observation_skipped": 7
+    }
+  },
+  "changes_versus_utility": {
+    "state_relevance": {
+      "same_set": 0.8833333333333333,
+      "first_doc_changed": 0.06666666666666667,
+      "second_doc_changed": 0.11666666666666667,
+      "n": 60
+    },
+    "question_relevance": {
+      "same_set": 0.5,
+      "first_doc_changed": 0.35,
+      "second_doc_changed": 0.7,
+      "n": 60
+    },
+    "setwise_llm": {
+      "same_set": 0.7166666666666667,
+      "first_doc_changed": 0.26666666666666666,
+      "second_doc_changed": 0.35,
+      "n": 60
+    }
+  },
+  "note": "All assigned questions. Bounded reader failure scores 0. This file does not open a confirmation."
+}
