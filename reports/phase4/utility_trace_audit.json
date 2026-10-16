@@ -1,0 +1,114 @@
+{
+  "protocol": "phase4-trace-audit-v1",
+  "comparable_inputs": true,
+  "missing_manifest_fields": {},
+  "manifest_differences": {},
+  "prefix_mismatch_pairs": 13,
+  "prefix_mismatch_questions": 8,
+  "mismatches": [
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 2
+    },
+    {
+      "task_id": "5ac2759655429921a00aaf7f",
+      "shorter_k": 1,
+      "longer_k": 2
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5a74655b55429974ef308bf0",
+      "shorter_k": 1,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ac2759655429921a00aaf7f",
+      "shorter_k": 2,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5a7f3bcd55429930675136c3",
+      "shorter_k": 2,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ac2759655429921a00aaf7f",
+      "shorter_k": 2,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a7c35025542996dd594b8d7",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a7f3bcd55429930675136c3",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a8eb4d65542990e94052b82",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ac2a35055429967731025ce",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5adfa73b55429942ec259ad8",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ae200655542994d89d5b2f4",
+      "shorter_k": 3,
+      "longer_k": 4
+    }
+  ],
+  "observation_failures_by_run": [
+    {
+      "run": "runs/phase3_dev_utility_k1",
+      "k": 1,
+      "by_position": {},
+      "terminal": 0,
+      "before_future_selection": 0
+    },
+    {
+      "run": "runs/phase3_dev_utility_k2",
+      "k": 2,
+      "by_position": {
+        "2": 5
+      },
+      "terminal": 5,
+      "before_future_selection": 0
+    },
+    {
+      "run": "runs/phase3_dev_utility_k3",
+      "k": 3,
+      "by_position": {
+        "3": 9,
+        "2": 5
+      },
+      "terminal": 9,
+      "before_future_selection": 5
+    },
+    {
+      "run": "runs/phase3_dev_utility_k4",
+      "k": 4,
+      "by_position": {
+        "3": 10,
+        "4": 15,
+        "2": 5
+      },
+      "terminal": 15,
+      "before_future_selection": 15
+    }
+  ]
+}

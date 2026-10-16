@@ -1,0 +1,62 @@
+{
+  "history_complete_declared": true,
+  "note": "Declared complete relative to recorded local task files in this repository. Unrecorded manual inspection cannot be certified.",
+  "files": [
+    {
+      "path": "/data/ppnm/oec_project/data/pilot/tasks.jsonl",
+      "sha256": "0d8a3c972c32a7c31339ef72ad9fcb678533b16babd675a3fe847fd9dd44f164"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1_smoke/tasks.jsonl",
+      "sha256": "cdc713dd57faba75f238e029847b48629aa68077e6d57120bf9ee37e72b0561e"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1_patch_smoke/tasks.jsonl",
+      "sha256": "a518fac3ffb42b44e64138f8f8d4aade6c3072a1d5712273242cc94f0b31545d"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1c_smoke/tasks.jsonl",
+      "sha256": "f66f98f16e441ceec0d1c51f99931e051a85710f1c77d64ea47d69c52aca2292"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/fullwiki_smoke/tasks.jsonl",
+      "sha256": "8f9baea3a96d4d92843ad36b23e7571bd37ab46b7d798fffff9409330ae37397"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/demo_prepared/tasks.jsonl",
+      "sha256": "bc90b8dfdfe49e3c1b12b08aa8668f439f676513dcb92b77066f8499c56eee93"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1d/tune/tasks.jsonl",
+      "sha256": "03d050eb42d5f0f8b83f13aa4e130eb0d507bb144cc0e041564d0526b866a57a"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1d/smoke/tasks.jsonl",
+      "sha256": "7107db82343e401f543419fa16664f812879f9bef2406d15c4cb62cef05539de"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1d/confirm/tasks.jsonl",
+      "sha256": "b54beafc58039c787410a90b42796de7c4241efcc1d0b9ad07f18fa85f03c52e"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1e_base/tune/tasks.jsonl",
+      "sha256": "8e703f1a9acfa1d2b6916bfd4b79d99c153ba44bdb5d2c62533af3b519adbd12"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1e_base/smoke/tasks.jsonl",
+      "sha256": "b7e778214f83a5066fde065f9fc2a6005343bd5127de84e1c286acd01825d44d"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1e_base/confirm/tasks.jsonl",
+      "sha256": "4e5baba5c58b90d637ed170788fc1a9328b6bddf3f28962b8c423422324c7486"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1e_studies/main/tasks.jsonl",
+      "sha256": "e2935722e56691a6aee6f8e0c8afe8de9e4e2d6e916ffd95f7cf95db204dee20"
+    },
+    {
+      "path": "/data/ppnm/oec_project/data/phase1e_studies/mechanism/tasks.jsonl",
+      "sha256": "ace31eea21c2be47bf8d10c26fcd8a44198a2dbf4d0c8c78e51bdf4e37fc7e5a"
+    }
+  ]
+}

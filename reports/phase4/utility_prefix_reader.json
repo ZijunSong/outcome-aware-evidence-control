@@ -1,0 +1,65 @@
+{
+  "protocol": "phase4-prefix-reader-diagnostic-v1",
+  "order": "read_prefix",
+  "by_k": {
+    "1": {
+      "n": 60,
+      "answer_em": 0.21666666666666667,
+      "answer_f1": 0.24388888888888888,
+      "all_support_titles": 0.0,
+      "bounded_reader_failures": 0,
+      "legal_abstentions": 31,
+      "nonempty_wrong": 16
+    },
+    "2": {
+      "n": 60,
+      "answer_em": 0.5833333333333334,
+      "answer_f1": 0.6449999999999999,
+      "all_support_titles": 0.7166666666666667,
+      "bounded_reader_failures": 0,
+      "legal_abstentions": 7,
+      "nonempty_wrong": 18
+    },
+    "3": {
+      "n": 60,
+      "answer_em": 0.6,
+      "answer_f1": 0.6783333333333332,
+      "all_support_titles": 0.8166666666666667,
+      "bounded_reader_failures": 0,
+      "legal_abstentions": 5,
+      "nonempty_wrong": 19
+    },
+    "4": {
+      "n": 60,
+      "answer_em": 0.6,
+      "answer_f1": 0.7155555555555555,
+      "all_support_titles": 0.9333333333333333,
+      "bounded_reader_failures": 0,
+      "legal_abstentions": 3,
+      "nonempty_wrong": 21
+    }
+  },
+  "flips": {
+    "1_to_2": {
+      "wrong_to_right": 23,
+      "right_to_wrong": 1,
+      "right_to_wrong_ids": [
+        "5ac1089f554299012d1db688"
+      ]
+    },
+    "2_to_3": {
+      "wrong_to_right": 2,
+      "right_to_wrong": 1,
+      "right_to_wrong_ids": [
+        "5a8b3d795542997f31a41cc1"
+      ]
+    },
+    "3_to_4": {
+      "wrong_to_right": 0,
+      "right_to_wrong": 0,
+      "right_to_wrong_ids": []
+    }
+  },
+  "reader_ledger_sha256": "f6577e1fd560174d9a531aef126da7d88912ed38a9c80a4c6ca6e36c48d30dcd",
+  "note": "Nested prefixes from one frozen trajectory. This is not a new C2 confirmation."
+}

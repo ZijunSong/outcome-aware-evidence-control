@@ -23,10 +23,14 @@ def collect(run, tasks, corpus, tasks_path, corpus_path, k):
     if len(directories) != len(tasks):
         raise ProtocolError("Missing or extra task outputs")
     predictions = old.indexed(old.lines(run / "predictions.jsonl"), "task_id")
+    if set(predictions) != set(tasks):
+        raise ProtocolError("Missing or extra selection ids")
     output = {}
     for directory in directories:
         bundle = old.json.loads((directory / "reader_context.json").read_text())
         task_id = bundle["task_id"]
+        if task_id in output or task_id not in tasks:
+            raise ProtocolError("Duplicate or unknown selection context")
         task = tasks[task_id]
         pool_size = len(task["corpus_ids"])
         if pool_size < 1 or len(set(task["corpus_ids"])) != pool_size:
@@ -45,10 +49,16 @@ def collect(run, tasks, corpus, tasks_path, corpus_path, k):
         read_responses = [row["response"] for row in events if row["event"] == "response" and row.get("kind") == "read"]
         if len(read_responses) != k or {row["id"] for row in read_responses} != set(selected):
             raise ProtocolError("Read events differ from selected documents")
+        if [row["id"] for row in read_responses] != selected:
+            raise ProtocolError("Read responses do not match selected order")
         for row in read_responses:
             expected = corpus[row["id"]]
             if row["title"] != expected["title"] or row["sentences"] != expected["sentences"]:
                 raise ProtocolError("Read text differs from frozen corpus")
+        for row in events:
+            if row["event"] == "local_typed_response" and any(
+                    value.get("truncated") for value in row["raw_results"].values()):
+                raise ProtocolError("Native decision context truncated")
         documents = [corpus[key] for key in sorted(selected)]
         context = {"question": task["question"], "documents": [{"document_ref": f"d{index + 1}",
             "title": document["title"], "sentences": [{"sentence_id": sid, "text": sentence}
@@ -59,6 +69,8 @@ def collect(run, tasks, corpus, tasks_path, corpus_path, k):
             raise ProtocolError("Reader selected set mismatch")
         output[task_id] = {"context": context, "selection_result": result,
                            "selected_sequence": selected, "source_directory": str(directory)}
+    if set(output) != set(tasks):
+        raise ProtocolError("Collector task set is incomplete")
     return manifest, output
 
 

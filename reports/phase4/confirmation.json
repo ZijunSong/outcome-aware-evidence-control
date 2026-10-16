@@ -1,0 +1,35 @@
+{
+  "protocol": "phase4-report-v1",
+  "mode": "confirmation",
+  "primary": {
+    "n": 800,
+    "baseline_mean": 0.32625,
+    "method_mean": 0.455,
+    "delta": 0.12875,
+    "paired_bootstrap_95ci": [
+      0.10375,
+      0.155
+    ],
+    "wrong_to_right": 115,
+    "right_to_wrong": 12,
+    "mcnemar_exact_p": 2.8158175808425007e-22
+  },
+  "initial_once": {
+    "n": 800,
+    "answer_em": 0.32625,
+    "answer_f1": 0.4090897376724584,
+    "all_support_titles": 0.265
+  },
+  "current_once": {
+    "n": 800,
+    "answer_em": 0.455,
+    "answer_f1": 0.5745109678311886,
+    "all_support_titles": 0.55625
+  },
+  "same_second_document": 0.39,
+  "current_first_observation_failures": 0,
+  "reader_invalid_initial": 2,
+  "reader_invalid_current": 1,
+  "note": "All assigned questions. Bounded reader failure scores 0. Development results are not confirmation.",
+  "decision": "PRIMARY_PASSED"
+}

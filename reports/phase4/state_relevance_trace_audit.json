@@ -1,0 +1,114 @@
+{
+  "protocol": "phase4-trace-audit-v1",
+  "comparable_inputs": true,
+  "missing_manifest_fields": {},
+  "manifest_differences": {},
+  "prefix_mismatch_pairs": 13,
+  "prefix_mismatch_questions": 9,
+  "mismatches": [
+    {
+      "task_id": "5abcc96c5542996583600492",
+      "shorter_k": 1,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5a7e30b255429934daa2fbeb",
+      "shorter_k": 2,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5a7f3bcd55429930675136c3",
+      "shorter_k": 2,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5abcc96c5542996583600492",
+      "shorter_k": 2,
+      "longer_k": 3
+    },
+    {
+      "task_id": "5a7f3bcd55429930675136c3",
+      "shorter_k": 2,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a7e30b255429934daa2fbeb",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a7f6fd75542992e7d278cfa",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a88fa145542997e5c09a6e1",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5a8be8215542995e66a47518",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5abcc96c5542996583600492",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ac2a35055429967731025ce",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ac3a7f75542993915413890",
+      "shorter_k": 3,
+      "longer_k": 4
+    },
+    {
+      "task_id": "5ae200655542994d89d5b2f4",
+      "shorter_k": 3,
+      "longer_k": 4
+    }
+  ],
+  "observation_failures_by_run": [
+    {
+      "run": "runs/phase3_dev_state_relevance_k1",
+      "k": 1,
+      "by_position": {},
+      "terminal": 0,
+      "before_future_selection": 0
+    },
+    {
+      "run": "runs/phase3_dev_state_relevance_k2",
+      "k": 2,
+      "by_position": {
+        "2": 7
+      },
+      "terminal": 7,
+      "before_future_selection": 0
+    },
+    {
+      "run": "runs/phase3_dev_state_relevance_k3",
+      "k": 3,
+      "by_position": {
+        "3": 15,
+        "2": 6
+      },
+      "terminal": 15,
+      "before_future_selection": 6
+    },
+    {
+      "run": "runs/phase3_dev_state_relevance_k4",
+      "k": 4,
+      "by_position": {
+        "3": 12,
+        "4": 16,
+        "2": 7
+      },
+      "terminal": 16,
+      "before_future_selection": 19
+    }
+  ]
+}

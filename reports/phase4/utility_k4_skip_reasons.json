@@ -1,0 +1,182 @@
+{
+  "run": "runs/phase3_dev_utility_k4",
+  "counts": {
+    "bounded_format_failure_unspecified": 15,
+    "position_3": 10,
+    "illegal_sentence_id": 15,
+    "position_4": 15,
+    "position_2": 5
+  },
+  "examples": [
+    {
+      "task_id": "5ab8883455429916710eb084",
+      "position": 3,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5ab8883455429916710eb084",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..2",
+        "Observation sentence id outside 0..2"
+      ]
+    },
+    {
+      "task_id": "5a88fa145542997e5c09a6e1",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..0",
+        "Observation sentence id outside 0..0"
+      ]
+    },
+    {
+      "task_id": "5a7e30b255429934daa2fbeb",
+      "position": 2,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a7e30b255429934daa2fbeb",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..0",
+        "Observation sentence id outside 0..0"
+      ]
+    },
+    {
+      "task_id": "5a8be8215542995e66a47518",
+      "position": 3,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a8eb4d65542990e94052b82",
+      "position": 2,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a8eb4d65542990e94052b82",
+      "position": 3,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a8eb4d65542990e94052b82",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..1",
+        "Observation sentence id outside 0..1"
+      ]
+    },
+    {
+      "task_id": "5ab29bdc554299545a2cf9d1",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..0",
+        "Observation sentence id outside 0..0"
+      ]
+    },
+    {
+      "task_id": "5a7ddd565542997cc2c474b2",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..2",
+        "Observation sentence id outside 0..2"
+      ]
+    },
+    {
+      "task_id": "5a80e468554299260e20a1a9",
+      "position": 3,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a80e468554299260e20a1a9",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..3",
+        "Observation sentence id outside 0..3"
+      ]
+    },
+    {
+      "task_id": "5adf37955542993a75d2642e",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..2",
+        "Observation sentence id outside 0..2"
+      ]
+    },
+    {
+      "task_id": "5a8da97c554299068b959d84",
+      "position": 2,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a8da97c554299068b959d84",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..0",
+        "Observation sentence id outside 0..0"
+      ]
+    },
+    {
+      "task_id": "5ac2a35055429967731025ce",
+      "position": 3,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a7228f655429971e9dc9312",
+      "position": 2,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a7228f655429971e9dc9312",
+      "position": 3,
+      "bucket": "bounded_format_failure_unspecified",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": []
+    },
+    {
+      "task_id": "5a7228f655429971e9dc9312",
+      "position": 4,
+      "bucket": "illegal_sentence_id",
+      "error": "phase1_observe: two output attempts failed",
+      "json_rejected": [
+        "Observation sentence id outside 0..1",
+        "Observation sentence id outside 0..1"
+      ]
+    }
+  ]
+}

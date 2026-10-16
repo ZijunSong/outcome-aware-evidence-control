@@ -4,8 +4,11 @@ import hashlib
 import json
 import math
 import re
+import sys
 from collections import Counter
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from oec.runtime import digest
 
 
 def tokenize(text):
@@ -68,6 +71,9 @@ def main():
         df.update(set(tokens))
     average = sum(sum(counter.values()) for counter in counts.values()) / max(1, len(documents))
     tasks = [json.loads(line) for line in args.tasks.read_text().splitlines() if line.strip()]
+    ids = [task["id"] for task in tasks]
+    if not ids or len(set(ids)) != len(ids) or any(not task.get("question") for task in tasks):
+        raise ValueError("Assigned questions must be unique and nonempty")
     (args.out / "pools").mkdir(parents=True)
     pools = []
     for task in tasks:
@@ -85,13 +91,29 @@ def main():
     used = {row["doc_id"] for pool in pools for row in pool["candidates"]}
     corpus_path = args.out / "corpus.jsonl"
     corpus_path.write_text("".join(json.dumps(documents[doc_id], ensure_ascii=False) + "\n" for doc_id in sorted(used)), encoding="utf-8")
+    pool_files = {task["id"]: hashlib.sha256((args.out / "pools" / f"{task['id']}.json").read_bytes()).hexdigest()
+                  for task in tasks}
+    if set(pool_files) != set(ids):
+        raise ValueError("Pool files do not match the assigned questions")
+    config = {"k1": 1.2, "b": 0.75, "query_term_duplicates": True, "tokenizer": r"\w+ casefold",
+              "positive_scores_only": True, "tie_break": "(-score, doc_id)", "snippet_chars": 240,
+              "content_id": "sha256(title + newline-joined sentences)"}
     manifest = {"protocol": "phase3-pooled-hotpot-bm25-v1", "corpus_name": "pooled HotpotQA distractor paragraphs",
                 "not_fullwiki": True, "top_n": args.top_n, "questions": len(tasks),
                 "source_documents": len(documents), "pooled_documents": len(used),
-                "tokenizer": r"\w+ casefold", "bm25": "LocalBM25 formula, positive scores only",
-                "gold_used": False}
+                "tokenizer": config["tokenizer"], "bm25": "LocalBM25 formula, positive scores only",
+                "gold_used": False, "task_ids": ids,
+                "task_ids_sha256": hashlib.sha256(json.dumps(sorted(ids), separators=(",", ":")).encode()).hexdigest(),
+                "tasks_sha256": hashlib.sha256(args.tasks.read_bytes()).hexdigest(),
+                "hotpot_sha256": hashlib.sha256(args.hotpot.read_bytes()).hexdigest(),
+                "source_code_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+                "config": config, "config_sha256": hashlib.sha256(json.dumps(config, sort_keys=True).encode()).hexdigest(),
+                "pool_files": pool_files,
+                "pool_files_sha256": digest(pool_files),
+                "corpus_sha256": hashlib.sha256(corpus_path.read_bytes()).hexdigest()}
     (args.out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps(manifest, indent=2))
+    print(json.dumps({key: manifest[key] for key in ("protocol", "questions", "source_documents",
+                                                     "pooled_documents", "gold_used")}, indent=2))
 
 
 if __name__ == "__main__":
